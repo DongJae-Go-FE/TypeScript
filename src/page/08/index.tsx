@@ -34,7 +34,7 @@ const Day8 = () => {
 
   //이렇게 하면 에러남
   if (링크 instanceof HTMLAnchorElement) {
-    링크.href = "https://kakao.com"; //에러남 ㅅㄱ
+    링크.href = "https://kakao.com"; 
   }
 
   // html 태그 종류별로 정확한 타입명칭이 있습니다.
